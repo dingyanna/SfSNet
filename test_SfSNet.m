@@ -1,6 +1,6 @@
 clc; clear;
 %% TO DO: Add your Matcaffe path as $PATH_TO_CAFFE/matlab
-PATH_TO_CAFFE_MATLAB='/usr/bin/caffe';
+PATH_TO_CAFFE_MATLAB='$PATH_TO_CAFFE/matlab';
 addpath(genpath(PATH_TO_CAFFE_MATLAB));
 
 addpath(genpath('functions'));
